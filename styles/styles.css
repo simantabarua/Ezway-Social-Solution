@@ -1,47 +1,52 @@
 body {
-    font-family: 'Poppins', sans-serif;
-  }
-
-/* Spacing */
-  .hero{
-    height: 700px;
-  }
-
-  /* Button */
-
-  .btn-solid-primary {
-    border: none;
-    background-color: #FF8A00;
-    color: white;
-    font-size: 15px;
-    border-radius: 16px;
-    padding: 10px 35px;
-  }
-  
-  .btn-solid-primary:hover {
-    background-color: #c76b03;
-  }
-  
-  .btn-solid-primary:active {
-    background-color: #c76b03 !important;
-  }
-
- .header-bg {
-  background : linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../assets/hero/header.png);
- }
-
- .banner-bg {
-    background : url(../assets/banner/banner.png);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
- }
-
- .social-bg {
-  background: #FAFAFC; 
+  font-family: "Poppins", sans-serif;
 }
 
+/* Spacing */
+.hero {
+  height: 700px;
+}
 
+/* Button */
+
+.btn-solid-primary {
+  border: none;
+  background-color: #ff8a00;
+  color: white;
+  font-size: 15px;
+  border-radius: 16px;
+  padding: 10px 35px;
+}
+
+.btn-solid-primary:hover {
+  background-color: #c76b03;
+}
+
+.btn-solid-primary:active {
+  background-color: #c76b03 !important;
+}
+
+.header-bg {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url(../assets/hero/header.png);
+}
+
+.banner-bg {
+  background: url(../assets/banner/banner.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.social-bg {
+  background: #fafafc;
+}
+
+.card-sevices {
+  border-radius: 12px;
+  background: var(--white, #fff);
+  box-shadow: 0px 6px 29px 0px rgba(0, 0, 0, 0.08);
+}
 
 @media only screen and (max-width: 576px) {
   .w-sm-100 {
