@@ -25,36 +25,50 @@
     <link rel="stylesheet" href="styles/styles.css" />
   </head>
   <body>
-    <div class="bg-body-tertiary px-3 px-md-0">
-      <nav class="navbar navbar-expand-lg container">
-        <a class="navbar-brand" href="#"
-          ><img src="./assets/logo.png" alt="Nav logo"
-        /></a>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="./assets/logo.png" alt="Nav logo" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link active fw-medium" aria-current="page" href="#"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item fw-normal">
+              <a class="nav-link" href="#">Product</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#">Product</a>
+              <a class="nav-link" href="#">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#">Contact Us</a>
+              <a class="nav-link" href="#">Contact Us</a>
             </li>
           </ul>
-          <button class="btn btn-outline-warning" type="submit">Log in</button>
+          <button class="btn btn-outline-primary" type="submit">Log in</button>
         </div>
-      </nav>
-    </div>
+      </div>
+    </nav>
+
     <!-- Hero Section -->
-    <header class="text-center header-bg py-md-5">
-      <div
-        class="px-4 py-5 my-5 text-center d-flex flex-column justify-content-center align-items-center"
-      >
-        <h1 class="display-6 fw-bold text-white w-75 w-sm-100">
+    <header
+      class="text-center header-bg py-md-5 hero-banner d-flex flex-column justify-content-center align-items-center"
+    >
+      <div class="px-4 py-5 my-5 text-center">
+        <h1 class="display-6 fw-semibold text-white">
           Effortlessly Expand Your Audience<br />
           and Streamline Brand<br />
           Management!
@@ -83,8 +97,8 @@
               alt="hero-img"
             />
             <div class="card-body">
-              <h5 class="card-title">Envato Best Seller</h5>
-              <p class="card-text">
+              <h5 class="fs-4">Envato Best Seller</h5>
+              <p class="card-text fs-6 text-body-secondary">
                 Over 4.800 items was sold on Codecanyon, Stackposts is one of
                 the best platforms for Social Networking on Envato Market
               </p>
@@ -99,8 +113,8 @@
               alt="hero-img"
             />
             <div class="card-body">
-              <h5 class="card-title">Best SaaS Scripts</h5>
-              <p class="card-text">
+              <h5 class="fs-4">Best SaaS Scripts</h5>
+              <p class="card-text fs-6 text-body-secondary">
                 Stackposts allows you to build and manage our scripts become a
                 Software as a service (SaaS). You can charge fees for the
                 services you provide.
@@ -116,8 +130,8 @@
               alt="hero-img"
             />
             <div class="card-body">
-              <h5 class="card-title">Top Social Marketing Tools</h5>
-              <p class="card-text">
+              <h5 class="fs-4">Top Social Marketing Tools</h5>
+              <p class="card-text fs-6 text-body-secondary">
                 Stackposts is one of the Top Social Marketing Tools - Providing
                 the solution for managing over 12 social networking sites at one
                 place.
@@ -130,10 +144,10 @@
     <section class="social-bg py-5">
       <!-- Section Header  -->
       <div class="text-center">
-        <h2 class="fw-bold text-body-emphasis">
+        <h2 class="fw-bold text-body-emphasis fs-1">
           <span class="text-warning">EZway Social</span> Suitable for
         </h2>
-        <p class="text-body-secondary w-50 w-sm-100 px-md-0 px-4 mx-auto">
+        <p class="text-body-secondary w-50 w-sm-100 px-md-0 px-4 mx-auto fs-6">
           With eZway Social, you can reach more people, boost your brand, and
           connect better with your audience.
         </p>
@@ -151,8 +165,8 @@
             />
           </div>
           <div class="col-lg-6 pe-md-5">
-            <h1 class="display-6 fw-bold mb-3">Social Media Managers</h1>
-            <p>
+            <h1 class="display-6 fw-bold fs-3 mb-3">Social Media Managers</h1>
+            <p class="text-body-emphasis">
               This is described as a 24/7 job because it requires you to know
               what's trending in your industry at all times. You have to develop
               a company's social media strategies and manage the Client's social
@@ -173,8 +187,10 @@
             />
           </div>
           <div class="col-lg-6 ps-md-5">
-            <h1 class="display-6 fw-bold mb-3">Digital Marketing Agencies</h1>
-            <p>
+            <h1 class="display-6 fw-bold mb-3 fs-3">
+              Digital Marketing Agencies
+            </h1>
+            <p class="text-body-emphasis">
               If you are a full-service Internet marketing agency, one of your
               services that is Social media anagement and social media
               advertising. You use social media to improve the search engine
@@ -196,8 +212,10 @@
             />
           </div>
           <div class="col-lg-6 pe-md-5">
-            <h1 class="display-6 fw-bold mb-3">Small & Medidum Businesses</h1>
-            <p>
+            <h1 class="display-6 fw-bold mb-3 fs-3">
+              Small & Medidum Businesses
+            </h1>
+            <p class="text-body-emphasis">
               Using social media for business is really a non -negotiable. 67%
               of consumers use social media for customer support, and 33% prefer
               using social media instead of the telephone. If people can’t find
@@ -220,12 +238,12 @@
             />
           </div>
           <div class="col-lg-6 ps-md-5">
-            <h1 class="display-6 fw-bold mb-3">Influencers</h1>
-            <p>
+            <h1 class="display-6 fw-bold mb-3 fs-3">Influencers</h1>
+            <p class="text-body-emphasis">
               Being an influencer has become so lucrative that it’s no wonder
               that everyone wants to be one in their respective domains.
             </p>
-            <p>
+            <p class="text-body-emphasis">
               If you are one of those people who want to become an influencer,
               you have to manage useful and relevant content for your followers.
               You also need to finalize a posting frequency and schedule. You
@@ -241,7 +259,7 @@
     <section class="container py-5">
       <!-- Section Header  -->
       <div class="text-center">
-        <h2 class="">Why Choose Us?</h2>
+        <h2 class="fs-1 fw-semibold">Why Choose Us?</h2>
         <p class="text-body-secondary my-4 w-50 mx-auto w-sm-100">
           With eZway Social, you can handle all your social media in one place!
           Plan, schedule, and track your performance effortlessly.
@@ -443,10 +461,10 @@
         </div>
       </section>
       <!-- Manage most popular social networks on eZway Social -->
-      <section class="container">
+      <section class="container d-flex justify-content-center flex-column p-5">
         <!-- Section Header -->
         <div class="text-center">
-          <h2 class="mb-4">
+          <h2 class="text-center mb-md-5 mb-3 fw-semibold fs-1">
             Manage most popular social networks on
             <span class="text-warning">eZway Social</span>
           </h2>
@@ -457,18 +475,33 @@
             modules for Stackposts Main Script.
           </p>
         </div>
+        <div class="d-flex gap-5 mx-auto justify-content-between">
+          <a class="nav-link" href="#"> <img src="./assets/icons/Facebook.png"> </a>
+          <a class="nav-link" href="#"> <img src="./assets/icons/Instagram.png"> </a>
+          <a class="nav-link" href="#"> <img src="./assets/icons/Twitter.png"> </a>
+          <a class="nav-link" href="#"> <img src="./assets/icons/Pinterest.png"> </a>
+          <a class="nav-link" href="#"> <img src="./assets/icons/Linkedin.png"> </a>
+          <a class="nav-link" href="#"> <img src="./assets/icons/Slack.png"> </a>
+        </div>
       </section>
       <!-- Testimonial -->
       <section class="container py-5">
         <!-- Section Header -->
-        <h2 class="text-center mb-md-5 mb-3">Testimonials</h2>
+        <h2 class="text-center mb-md-5 mb-3 fw-semibold fs-1">Testimonials</h2>
+
         <div
           class="row row-cols-1 row-cols-sm-2 row-cols-md-3 justify-content-center"
         >
           <div class="col">
             <div class="card mb-4 rounded-3 border-0 shadow-sm p-md-3 p-3">
               <div class="card-body">
-                <div class="d-flex gap-3 align-items-center"></div>
+                <div class="text-warning d-flex gap-2">
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                </div>
                 <p class="card-text mt-3">
                   eZway Social allows you to manage multiple social media
                   networks in one place. No more remembering pesky passwords or
@@ -477,11 +510,11 @@
                 <div class="d-flex gap-3 align-items-center">
                   <img
                     src="assets/testimonials/8e2becda16e2f3abc85e162b63a8d214.jpg"
-                    style="height: 55px; border-radius: 50%; width: 55px"
-                    alt="8e2becda16e2f3abc85e162b63a8d214"
+                    class="img-fluid rounded-circle testimonial-img"
+                    alt="Leslie Alexander"
                   />
                   <div>
-                    <h5 class="card-title mt-3">Leslie Alexander</h5>
+                    <h5 class="mt-3">Leslie Alexander</h5>
                     <p>Reporter</p>
                   </div>
                 </div>
@@ -491,6 +524,13 @@
           <div class="col">
             <div class="card mb-4 rounded-3 border-0 shadow-sm p-md-3 p-3">
               <div class="card-body">
+                <div class="text-warning d-flex gap-2">
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                </div>
                 <p class="card-text mt-3">
                   eZway Social allows you to schedule messages across all your
                   favorite social media platforms in advance. It will help your
@@ -499,11 +539,11 @@
                 <div class="d-flex gap-3 align-items-center">
                   <img
                     src="assets/testimonials/b7e5b6a103402cf42fd12c0e4f9227d5.jpg"
-                    style="height: 55px; border-radius: 50%; width: 55px"
-                    alt="b7e5b6a103402cf42fd12c0e4f9227d5"
+                    class="img-fluid rounded-circle testimonial-img"
+                    alt="Jui Lily"
                   />
                   <div>
-                    <h5 class="card-title mt-3">Jui Lily</h5>
+                    <h5 class="mt-3">Jui Lily</h5>
                     <p>Reporter</p>
                   </div>
                 </div>
@@ -511,8 +551,15 @@
             </div>
           </div>
           <div class="col">
-            <div class="card mb-4 rounded-3 border-0 shadow-sm p-3-5 p-3">
+            <div class="card mb-4 rounded-3 border-0 shadow-sm p-3">
               <div class="card-body">
+                <div class="text-warning d-flex gap-2">
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                </div>
                 <p class="card-text mt-3">
                   eZway Social allows you to schedule messages across all your
                   favorite social media platforms in advance. It will help your
@@ -521,11 +568,11 @@
                 <div class="d-flex gap-3 align-items-center">
                   <img
                     src="assets/testimonials/350f5b38c58fe55c4ebbed49c2b3b923.jpg"
-                    style="height: 55px; border-radius: 50%; width: 55px"
-                    alt="350f5b38c58fe55c4ebbed49c2b3b923"
+                    class="img-fluid rounded-circle testimonial-img"
+                    alt="Alex Adon"
                   />
                   <div>
-                    <h5 class="card-title mt-3">Alex Adon</h5>
+                    <h5 class="mt-3">Alex Adon</h5>
                     <p>Reporter</p>
                   </div>
                 </div>
@@ -534,83 +581,78 @@
           </div>
         </div>
       </section>
+
       <!-- Banner section  -->
       <section class="text-center banner-bg py-md-5 py-3">
-        <div
-          class="px-4 text-center d-flex flex-column justify-content-center align-items-center"
-        >
-          <h1 class="display-6 fw-bold w-75 w-sm-100">
-            Maximise your brand's impact on social media using eZway Social!
-          </h1>
-          <div class="col-lg-6 mx-auto">
-            <h1 class="display-6 fw-bold w-75 w-sm-100">
-              <button type="button" class="btn-solid-primary mt-5">
+        <div class="container">
+          <div
+            class="px-4 text-center d-flex flex-column justify-content-center align-items-center"
+          >
+            <h1 class="display-6 fw-bold w-75 w-sm-100 mx-auto">
+              Maximise your brand's impact on social media using eZway Social!
+            </h1>
+            <div class="col-lg-6 mx-auto">
+              <button type="button" class="btn btn-solid-primary mt-5">
                 Get started now
               </button>
-            </h1>
+            </div>
           </div>
         </div>
       </section>
-      <!-- footer1 -->
-      <footer class="container">
-        <div
-          class="d-flex justify-content-between flex-column flex-md-row py-5 text-center text-md-start"
-        >
-          <div class="w-sm-100" style="width: 30%">
-            <img src="assets/logo.png" class="mb-4" alt="logo" />
-            <p>
-              We cover everything from marketing to sales, media to TV,
-              magazines, radio, and small businesses to coaching.
-            </p>
-          </div>
-          <div class="text-center text-md-start">
-            <h5 class="mb-4">Pages</h5>
-            <ul class="list-unstyled">
-              <li class="mb-2">
-                <a class="text-decoration-none text-black" href="#">Home</a>
-              </li>
-              <li class="mb-2">
-                <a class="text-decoration-none text-black" href="#">Product</a>
-              </li>
-              <li class="mb-2">
-                <a class="text-decoration-none text-black" href="#">About</a>
-              </li>
-            </ul>
-          </div>
-          <div class="text-center text-md-start">
-            <h5 class="mb-4">Legal</h5>
-            <ul class="list-unstyled">
-              <li class="mb-2">
-                <a class="text-decoration-none text-black" href="#"
-                  >Privacy Policy</a
-                >
-              </li>
-              <li class="mb-2">
-                <a class="text-decoration-none text-black" href="#"
-                  >Terms of Services</a
-                >
-              </li>
-            </ul>
-          </div>
-        </div>
-      </footer>
-      <!-- Footer2 section  -->
-      <footer class="container pt-5 pb-3">
-        <!-- copyright section  -->
-        <div
-          class="d-flex justify-content-between flex-column flex-md-row text-center align-items-center"
-        >
-          <p class="small mb-3 mb-md-0">
-            Developed by Webermelon | Copyright © eZWay Network 2023
-          </p>
-          <div class="d-flex gap-2">
-            <div class="p-1 border border-black rounded"></div>
-            <div class="p-1 border border-black rounded"></div>
-            <div class="p-1 border border-black rounded"></div>
-            <div class="p-1 border border-black rounded"></div>
-          </div>
-        </div>
-      </footer>
+
+    <!-- Footer1 section -->
+<footer class="container">
+  <div class="d-flex justify-content-between flex-column flex-md-row py-5 text-center text-md-start">
+    <div style="width: 30%;">
+      <img src="assets/logo.png" class="mb-4" alt="logo" />
+      <p>
+        We cover everything from marketing to sales, media to TV, magazines, radio, and small businesses to coaching.
+      </p>
+    </div>
+    <div class="text-center text-md-start">
+      <h5 class="mb-4">Pages</h5>
+      <ul class="list-unstyled mb-0">
+        <li><a class="text-decoration-none text-black" href="#">Home</a></li>
+        <li><a class="text-decoration-none text-black" href="#">Product</a></li>
+        <li><a class="text-decoration-none text-black" href="#">About</a></li>
+        <li><a class="text-decoration-none text-black" href="#">Contact Us</a></li>
+      </ul>
+    </div>
+    <div class="text-center text-md-start">
+      <h5 class="mb-4">Legal</h5>
+      <ul class="list-unstyled mb-0">
+        <li><a class="text-decoration-none text-black" href="#">Privacy Policy</a></li>
+        <li><a class="text-decoration-none text-black" href="#">Terms of Services</a></li>
+      </ul>
+    </div>
+  </div>
+</footer>
+<hr>
+<!-- Footer2 section -->
+<footer class="container pt-2 pb-3">
+  <div class="d-flex justify-content-between flex-column flex-md-row text-center align-items-center">
+    <p class="small mb-3 mb-md-0">
+      Developed by Webermelon | Copyright © eZWay Network 2023
+    </p>
+    <div class="d-flex gap-2">
+      <a href="#" class="px-2 py-1 border border-black rounded">
+        <i class="fab fa-facebook text-black"></i>
+      </a>
+      <a href="#" class="px-2 py-1 border border-black rounded">
+        <i class="fab fa-twitter text-black"></i>
+      </a>
+      <a href="#" class="px-2 py-1 border border-black rounded">
+        <i class="fab fa-instagram text-black"></i>
+      </a>
+      <a href="#" class="px-2 py-1 border border-black rounded">
+        <i class="fab fa-linkedin text-black"></i>
+      </a>
+    </div>
+    
+    
+  </div>
+</footer>
+
       <script
         src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"

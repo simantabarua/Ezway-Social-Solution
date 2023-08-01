@@ -12,10 +12,10 @@ body {
 .btn-solid-primary {
   border: none;
   background-color: #ff8a00;
-  color: white;
   font-size: 15px;
+  font-weight: 500;
   border-radius: 16px;
-  padding: 10px 35px;
+  padding: 16px 32px;
 }
 
 .btn-solid-primary:hover {
@@ -26,9 +26,29 @@ body {
   background-color: #c76b03 !important;
 }
 
+.btn-outline-primary {
+  border-radius: 16px;
+  border: 1px solid #ff8a00;
+  color: #ff8a00;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 10px 24px;
+}
+
+.btn-outline-primary:hover {
+  background-color: #ff8a00;
+}
+
+.btn-outline-primary:active {
+  background-color: #ff8a00 !important;
+}
+
 .header-bg {
   background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
     url(../assets/hero/header.png);
+}
+.hero-banner {
+  height: 732px;
 }
 
 .banner-bg {
@@ -46,6 +66,12 @@ body {
   border-radius: 12px;
   background: var(--white, #fff);
   box-shadow: 0px 6px 29px 0px rgba(0, 0, 0, 0.08);
+}
+
+.testimonial-img {
+  width: 55px;
+  height: 55px;
+  object-fit: cover;
 }
 
 @media only screen and (max-width: 576px) {
