@@ -7,8 +7,14 @@ body {
   height: 700px;
 }
 
+.text-primary-style{
+ color:  #FF8A00
+ 
+}
+.text-secondery-style{
+  color:  #5B5B5B
+ }
 /* Button */
-
 .btn-solid-primary {
   border: none;
   background-color: #ff8a00;
@@ -72,6 +78,14 @@ body {
   width: 55px;
   height: 55px;
   object-fit: cover;
+}
+
+.social-icon img{
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+  display: block;
+ margin-left: 52px;
 }
 
 @media only screen and (max-width: 576px) {
